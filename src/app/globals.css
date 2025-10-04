@@ -5,82 +5,97 @@ All colors MUST be HSL.
 */
 
 :root {
-  --background: 0 0% 100%;
-  --foreground: 222.2 84% 4.9%;
+  /* ConnectOut Light Theme (fallback) */
+  --background: 225 25% 20%;
+  --foreground: 210 40% 95%;
 
-  --card: 0 0% 100%;
-  --card-foreground: 222.2 84% 4.9%;
+  --card: 225 25% 25%;
+  --card-foreground: 210 40% 95%;
 
-  --popover: 0 0% 100%;
-  --popover-foreground: 222.2 84% 4.9%;
+  --popover: 225 25% 25%;
+  --popover-foreground: 210 40% 95%;
 
-  --primary: 222.2 47.4% 11.2%;
-  --primary-foreground: 210 40% 98%;
+  --primary: 200 100% 50%;
+  --primary-foreground: 225 25% 20%;
 
-  --secondary: 210 40% 96.1%;
-  --secondary-foreground: 222.2 47.4% 11.2%;
+  --secondary: 35 100% 60%;
+  --secondary-foreground: 225 25% 20%;
 
-  --muted: 210 40% 96.1%;
-  --muted-foreground: 215.4 16.3% 46.9%;
+  --muted: 225 25% 30%;
+  --muted-foreground: 215 20% 70%;
 
-  --accent: 210 40% 96.1%;
-  --accent-foreground: 222.2 47.4% 11.2%;
+  --accent: 35 100% 60%;
+  --accent-foreground: 225 25% 20%;
 
   --destructive: 0 84.2% 60.2%;
   --destructive-foreground: 210 40% 98%;
 
-  --border: 214.3 31.8% 91.4%;
-  --input: 214.3 31.8% 91.4%;
-  --ring: 222.2 84% 4.9%;
+  --border: 225 25% 35%;
+  --input: 225 25% 30%;
+  --ring: 200 100% 50%;
 
-  --radius: 0.5rem;
+  --radius: 0.75rem;
 
-  --sidebar-background: 0 0% 98%;
-  --sidebar-foreground: 240 5.3% 26.1%;
-  --sidebar-primary: 240 5.9% 10%;
-  --sidebar-primary-foreground: 0 0% 98%;
-  --sidebar-accent: 240 4.8% 95.9%;
-  --sidebar-accent-foreground: 240 5.9% 10%;
-  --sidebar-border: 220 13% 91%;
-  --sidebar-ring: 217.2 91.2% 59.8%;
+  /* ConnectOut specific colors */
+  --electric-blue: 200 100% 50%;
+  --warm-amber: 35 100% 60%;
+  --rainbow-start: 280 100% 70%;
+  --rainbow-end: 200 100% 50%;
+
+  --sidebar-background: 225 25% 18%;
+  --sidebar-foreground: 210 40% 90%;
+  --sidebar-primary: 200 100% 50%;
+  --sidebar-primary-foreground: 225 25% 20%;
+  --sidebar-accent: 225 25% 22%;
+  --sidebar-accent-foreground: 210 40% 90%;
+  --sidebar-border: 225 25% 30%;
+  --sidebar-ring: 200 100% 50%;
 }
 
 .dark {
-  --background: 222.2 84% 4.9%;
+  /* ConnectOut Primary Dark Theme */
+  --background: 225 25% 15%;
   --foreground: 210 40% 98%;
 
-  --card: 222.2 84% 4.9%;
+  --card: 225 25% 18%;
   --card-foreground: 210 40% 98%;
 
-  --popover: 222.2 84% 4.9%;
+  --popover: 225 25% 18%;
   --popover-foreground: 210 40% 98%;
 
-  --primary: 210 40% 98%;
-  --primary-foreground: 222.2 47.4% 11.2%;
+  --primary: 200 100% 55%;
+  --primary-foreground: 225 25% 15%;
 
-  --secondary: 217.2 32.6% 17.5%;
-  --secondary-foreground: 210 40% 98%;
+  --secondary: 35 100% 65%;
+  --secondary-foreground: 225 25% 15%;
 
-  --muted: 217.2 32.6% 17.5%;
-  --muted-foreground: 215 20.2% 65.1%;
+  --muted: 225 25% 22%;
+  --muted-foreground: 215 20% 75%;
 
-  --accent: 217.2 32.6% 17.5%;
-  --accent-foreground: 210 40% 98%;
+  --accent: 35 100% 65%;
+  --accent-foreground: 225 25% 15%;
 
-  --destructive: 0 62.8% 30.6%;
+  --destructive: 0 84.2% 60.2%;
   --destructive-foreground: 210 40% 98%;
 
-  --border: 217.2 32.6% 17.5%;
-  --input: 217.2 32.6% 17.5%;
-  --ring: 212.7 26.8% 83.9%;
-  --sidebar-background: 240 5.9% 10%;
-  --sidebar-foreground: 240 4.8% 95.9%;
-  --sidebar-primary: 224.3 76.3% 48%;
-  --sidebar-primary-foreground: 0 0% 100%;
-  --sidebar-accent: 240 3.7% 15.9%;
-  --sidebar-accent-foreground: 240 4.8% 95.9%;
-  --sidebar-border: 240 3.7% 15.9%;
-  --sidebar-ring: 217.2 91.2% 59.8%;
+  --border: 225 25% 25%;
+  --input: 225 25% 20%;
+  --ring: 200 100% 55%;
+
+  /* Enhanced ConnectOut specific colors for dark mode */
+  --electric-blue: 200 100% 55%;
+  --warm-amber: 35 100% 65%;
+  --rainbow-start: 280 100% 75%;
+  --rainbow-end: 200 100% 55%;
+
+  --sidebar-background: 225 25% 12%;
+  --sidebar-foreground: 210 40% 95%;
+  --sidebar-primary: 200 100% 55%;
+  --sidebar-primary-foreground: 225 25% 15%;
+  --sidebar-accent: 225 25% 16%;
+  --sidebar-accent-foreground: 210 40% 95%;
+  --sidebar-border: 225 25% 20%;
+  --sidebar-ring: 200 100% 55%;
 }
 
 @theme {
@@ -160,4 +175,73 @@ All colors MUST be HSL.
 body {
   background-color: hsl(var(--background));
   color: hsl(var(--foreground));
+}
+
+/* ConnectOut Custom Classes */
+.rainbow-gradient {
+  background: linear-gradient(135deg,
+    hsl(var(--rainbow-start)),
+    hsl(var(--electric-blue)),
+    hsl(var(--warm-amber)),
+    hsl(var(--rainbow-end))
+  );
+}
+
+.electric-blue-gradient {
+  background: linear-gradient(135deg,
+    hsl(var(--electric-blue)),
+    hsl(200 100% 65%)
+  );
+}
+
+.warm-amber-gradient {
+  background: linear-gradient(135deg,
+    hsl(var(--warm-amber)),
+    hsl(35 100% 70%)
+  );
+}
+
+.glass-effect {
+  backdrop-filter: blur(10px);
+  background: hsla(var(--card) / 0.8);
+  border: 1px solid hsla(var(--border) / 0.2);
+}
+
+.connectout-card {
+  background: hsl(var(--card));
+  border: 1px solid hsl(var(--border));
+  border-radius: var(--radius);
+  box-shadow: 0 4px 6px -1px hsla(0 0% 0% / 0.1);
+}
+
+.connectout-button-primary {
+  background: hsl(var(--electric-blue));
+  color: hsl(var(--primary-foreground));
+  border: none;
+  border-radius: var(--radius);
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.connectout-button-primary:hover {
+  background: hsl(200 100% 60%);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px hsla(200 100% 50% / 0.3);
+}
+
+.connectout-button-secondary {
+  background: hsl(var(--warm-amber));
+  color: hsl(var(--secondary-foreground));
+  border: none;
+  border-radius: var(--radius);
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.connectout-button-secondary:hover {
+  background: hsl(35 100% 70%);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px hsla(35 100% 60% / 0.3);
 }
