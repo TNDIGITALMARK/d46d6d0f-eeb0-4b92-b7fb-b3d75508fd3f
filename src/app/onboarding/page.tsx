@@ -174,7 +174,7 @@ export default function OnboardingPage() {
                           id="height"
                           value={formData.height}
                           onChange={(e) => setFormData({...formData, height: e.target.value})}
-                          placeholder="5'10\""
+                          placeholder="5'10&quot;"
                           className="mt-1"
                         />
                       </div>
